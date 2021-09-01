@@ -8,13 +8,22 @@ function App() {
       <div className="container">
       <header className="App-header">
 <h1>Dictionary App</h1>
+<h4>Please Search for Something...</h4>
       </header>
       <main>
         <Dictionary />
       </main>
       <footer>
-        This page was coded by Tara Ryan and is open sourced.
-      </footer>
+    
+      This project was coded by Tara Ryan and is {" "}
+          <a
+            href="https://github.com/TahhRahh/dictionary-project/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open sourced.
+          </a>{" "}
+          </footer>
     </div>
     </div>
   );

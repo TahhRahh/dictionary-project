@@ -1,3 +1,16 @@
 .Dictionary{
-    background: red;
+    background: #34e8eb;
+    text-align: center;
+}
+.App h1{
+    text-align: center;
+}
+.App h4{
+    text-align: center;
+}
+.App footer{
+    text-align: center;
+}
+.App{
+    background: #ff0095;
 }
