@@ -1,5 +1,5 @@
 .Dictionary{
-    background: #34e8eb;
+    background: #9fc0f5;
     text-align: center;
 }
 .App h1{
@@ -12,5 +12,13 @@
     text-align: center;
 }
 .App{
-    background: #ff0095;
+    background: #ff49b3;
 }
+.Dictionary section {
+    background: white;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+    margin: 20px 0;
+  }
+ 

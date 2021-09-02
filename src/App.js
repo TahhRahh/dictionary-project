@@ -7,8 +7,10 @@ function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
+        <section>
 <h1>Dictionary App</h1>
 <h4>Please Search for Something...</h4>
+</section>
       </header>
       <main>
         <Dictionary />
