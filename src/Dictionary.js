@@ -20,6 +20,12 @@ export default function Dictionary() {
     axios.get(apiUrl).then(handleResponse);
   }
 
+  let pexelsApiKey =
+      "5563492ad6f917000010000010b2705c5790a4c239bcc31eb6524bcd9";
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
+    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+    axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
+  }
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
   }
